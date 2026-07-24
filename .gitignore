@@ -1,0 +1,34 @@
+# Ignore dataset and large binary data
+dataset/
+*.npy
+*.npz
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets / env
+.env
